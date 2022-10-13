@@ -26,8 +26,14 @@ void FiguraGeometrica::dibujarFigura(int color){
         case 5:
             system("Color 06");
             break;
-        default:
+        case 6:
             system("Color 07");
+            break;
+        case 7:
+            system("Color 14");
+            break;
+        default:
+            system("Color 08");
             break;
     }
     dibujarFigura(); // Hace el llamado al metodo abstracto para que se llame la implementacion especifica de las subclases.
