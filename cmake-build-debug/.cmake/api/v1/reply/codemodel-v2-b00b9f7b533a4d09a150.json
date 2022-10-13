@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib/googleTest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googleTest-Debug-74083f77dcc9bfd2f31d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/googleTest"
+				},
+				{
+					"build" : "lib/googleTest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googleTest.googlemock-Debug-645fc09051472f6c9ae1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/googleTest/googlemock",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "lib/googleTest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googleTest.googletest-Debug-5ff32093ea4d5e6ea3e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "lib/googleTest/googletest",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "testing",
+					"jsonFile" : "directory-testing-Debug-ceb00a1e29d07a49f742.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "testing",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5
+					],
+					"name" : "Ejercicio_Polimorfismo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Ejercicio_Polimorfismo_exe::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Ejercicio_Polimorfismo_exe-Debug-ca2b579c2da41ca88836.json",
+					"name" : "Ejercicio_Polimorfismo_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Ejercicio_Polimorfismo_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Ejercicio_Polimorfismo_lib-Debug-2ce571de9e8fab79a5f9.json",
+					"name" : "Ejercicio_Polimorfismo_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Ejercicio_Polimorfismo_test::@7f5979fb78f082e8b1c6",
+					"jsonFile" : "target-Ejercicio_Polimorfismo_test-Debug-3dc92d4bca9e8d4a9e47.json",
+					"name" : "Ejercicio_Polimorfismo_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@313d2789e2baba0cabc7",
+					"jsonFile" : "target-gmock-Debug-6c3452bdf0c4945b1fb7.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@313d2789e2baba0cabc7",
+					"jsonFile" : "target-gmock_main-Debug-225d6eac47533e4b3fe9.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@8f655e3e8c0dbf906140",
+					"jsonFile" : "target-gtest-Debug-7f2179ee7defb6fc985e.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@8f655e3e8c0dbf906140",
+					"jsonFile" : "target-gtest_main-Debug-de82b10b0aa1aae1582a.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/julio/OneDrive/Documentos/Cuarto_semestre_sistemas/POO/Polimorfismo_2/extension-figurasgeometricas-Julio-Alejandro-Mazo/cmake-build-debug",
+		"source" : "C:/Users/julio/OneDrive/Documentos/Cuarto_semestre_sistemas/POO/Polimorfismo_2/extension-figurasgeometricas-Julio-Alejandro-Mazo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
